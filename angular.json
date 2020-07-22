@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Triveous"
+    }
+  },
+  "defaultProject": "Triveous",
+  "cli": {
+    "analytics": "3fe233fa-ce6a-4815-9da6-a5fea799c37a"
+  }
 }

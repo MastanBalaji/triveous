@@ -1,0 +1,60 @@
+.header-sty{
+background-color: rgb(10, 10, 10);
+color: white;
+font-weight: bolder;
+}
+
+ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: small;
+    word-break: break-all;
+}
+
+.main-text{
+    text-transform: capitalize;
+    border-bottom:2px solid rgb(125, 116, 116);
+}
+.img-sty{
+    height:150px !important;
+}
+.aside-img{
+    height:110px !important;
+    width: 110px !important;
+}
+.media-body{
+    font-size: smaller;
+    font-weight: bold;
+}
+.loader-sty{
+    height: 70vh !important;
+}
+.loader-sty1{
+    height: 50vh !important;
+}
+.card-sty:hover{
+    cursor: pointer;
+    box-shadow: 0.5rem 0.5rem 0.5rem black;
+    z-index: 100;
+}
+
+@media screen and (min-width: 768px) {
+    .card-sty:hover{
+        transform: scale(1.2);
+        cursor: pointer;
+        z-index: 100 !important;
+        box-shadow: 0.5rem 0.5rem 0.5rem black;
+    }
+    ul li:hover{
+        border-bottom: 2px solid orangered;
+    }
+    .aside-sty{
+        height:70vh !important;
+        overflow-y:scroll;
+        overflow-x: hidden;
+        width: 110%;
+    }
+  }
+.cur-sty{
+    cursor: pointer !important;
+}
